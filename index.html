@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: grey;
+}
+
+</style>
+</head>
+<body>
+<div id="PROFILE" hidden>
+<center><h1> ○○○○W E L C O M E○○○○ </h1>
+<img src="images/Logo.png" alt="Mountain View" style="width:304px;height:250px;">
+<h2>•MICHAEL JHONRY S. TAGUPA•<h2>
+</body>
+</html>
+</div>
+
+<button onclick="myFunction()">CLICK</button>
+<script>
+
+function myFunction() {
+
+    var x = document.getElementById('PROFILE');
+    if (x.style.display === 'none') {
+		alert('Click ok to proceed!');
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+
