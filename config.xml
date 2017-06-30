@@ -5,6 +5,6 @@
 		version ="1.0.0">
 		<name>Chaelx</name>
 		<preference name="Fullscreen" value="true"/>
-		<description> This application is my first hybrid Application</description>
+		<description> Flash </description>
 		<icon src="images/icon.png"/>
 </widget>	
